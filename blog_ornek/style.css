@@ -1,0 +1,390 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 3rem;
+    background-color: #c9d3db;
+}
+
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+ul{
+    list-style: none;
+}
+
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*sol bar*/
+
+.sol-bar{
+    float: left;
+    width: 20%;
+    background-color: #F0F4F7;
+    padding: 4rem;
+}
+
+.sol-bar p{
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    font-size: 1.5rem;
+    color: #a3a7aa;
+    word-spacing: 2px;
+    line-height: 2rem;
+}
+
+.sol-bar li{
+    margin-bottom: 3rem;
+}
+
+.sol-bar a{
+    color: black;
+    font-size: 2rem;
+}
+
+.sol-bar .footer{
+    margin-top: 10rem;
+    text-align: center;
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: 154rem;
+}
+
+/* Ana Sayfa */
+
+.ana-sayfa{
+    float: right;
+    width: 80%;
+    padding: 5rem 3rem;
+    background-color: white;
+}
+
+/*Ana Sayfa Sol*/
+
+.sol-sayfa{
+    float: left;
+    width: 65%;
+}
+
+.sol-sayfa h1{
+    font-size: 3.5rem;
+}
+
+.sol-sayfa p{
+    margin-top: 2.5rem;
+    margin-bottom: 6rem;
+    font-size: 1.5rem;
+    color: #a3a7aa;
+    word-spacing: 2px;
+    line-height: 2.5rem;
+}
+
+/*Ana Sayfa Sol CARD*/
+.card .card-header {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    transition: color .5s;
+}
+
+.card .card-header:hover{
+    cursor: pointer;
+    color: lightskyblue;
+}
+
+.card ul{
+    margin-bottom: 3.5rem;
+}
+
+.card ul li{
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+    color: black;
+    
+}
+
+.card ul li a{
+    color: black;
+    transition: color .5s;
+}
+
+.card ul li a:hover{
+    color: lightskyblue;
+}
+
+.card img{
+    border-radius: 5px;
+    transition: opacity .5s;
+}
+
+.card img:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.card .card-p{
+    color: black;
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.card .btn{
+    display: inline-block;
+    padding: 1.2rem;
+    border: 1px solid  darkturquoise;
+    border-radius: 2px;
+}
+
+.card .btn a{
+    font-size: 1.7rem;
+    color: darkturquoise;
+}
+
+.card .btn:hover{
+    background-color: darkturquoise;
+}
+
+.card .btn:hover a{
+    color: white;
+}
+
+.card .hr{
+    height: 1px;
+    width: 100%;
+    background-color: gainsboro;
+    margin: 4rem 0;
+}
+
+
+/*Ana Sayfa Sağ*/
+.ana-sayfa .sag-sayfa{
+    float: right;
+    width: 35%;
+    padding-left: 6rem;
+}
+
+.input-search{
+    margin-top: 17rem;
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    width: 100%;
+    border: 1px solid #a3a7aa;
+    border-radius: 2px;
+    color: #a3a7aa;
+}
+
+.sag-sayfa a{
+    color: black;
+}
+
+.ikon{
+    font-size: 1.6rem;
+    position: relative;
+    left: 30rem;
+    bottom: 2.9rem;
+    margin-bottom: 3rem;
+}
+
+/*Postlar*/
+.post{
+    margin-bottom: 4rem;
+}
+
+.post h1{
+    font-size: 1.6rem;
+}
+
+.blue-hr{
+    float: left;
+    width: 20%;
+    height: 1px;
+    background-color:  cornflowerblue;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.black-hr{
+    float: right;
+    width: 80%;
+    height: 1px;
+    background-color:  gainsboro;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*post1*/
+.post1-img{
+    height: auto;
+    width: 60%;
+    border-radius: 50%;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+
+.post1-p{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+/*post2*/
+
+.post ul li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.post ul li a{
+    color: black;
+    font-size: 4rem;
+}
+
+/*post3*/
+
+.post ol li{
+    margin-bottom: 2rem;
+}
+
+.post ol li a{
+    font-size: 1.5rem;
+    color: black;
+    transition: color .5s;
+}
+
+.post ol li a:hover{
+    color: cornflowerblue;
+}
+
+/*post4*/
+
+.post .posts .post4-img{
+    float: left;
+    width: 22%;
+    height: auto;
+    margin-right: 2rem;
+    border-radius: 2px;
+}
+
+.post .posts .post4-img:hover{
+    cursor: pointer;
+}
+
+.post .posts .post4-h2{
+    font-weight: 100;
+    word-spacing: 1px;
+    transition: color .5s;
+}
+
+.post .posts .post4-h2:hover{
+    cursor: pointer;
+    color: cornflowerblue;
+}
+
+.post .posts .post4-p{
+    font-size: 1.5rem;
+}
+
+.post .posts .hr{
+    width: 100%;
+    height: 1px;
+    background-color:  gainsboro;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+/*post5*/
+
+.post .post5-p{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+
+/*post6*/
+.post .post6-btn{
+    padding: 1rem;
+    background-color: gainsboro;
+    margin-right: .4rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: color .5s;
+}
+
+.post ul li a{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.post .post6-btn:hover{
+    background-color: darkturquoise;
+}
+
+.post .post6-btn:hover a{
+    color: white;
+}
+
+@media (max-width:800px){
+
+    .html{
+        font-size: 4px;
+    }
+
+    .sol-bar{
+        float: none;
+        width: 100%;
+    }
+
+    .sol-bar img{
+        height: auto;
+        width: 50%;
+    }
+
+
+    .sol-bar ul li{
+        display: inline-block;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sol-bar .footer{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+    .ana-sayfa{
+        float: none;
+        width: 100%;
+    }
+
+    .sol-sayfa{
+        float: none;
+        width: 100%;
+    }
+
+    .ana-sayfa .sag-sayfa{
+        float: none;
+        width: 100%;
+    }
+}
